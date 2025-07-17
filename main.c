@@ -1,56 +1,29 @@
-#include <stdio.h>
-#include <math.h>
-#include <ctype.h>
-#include <string.h>
-int main()
-{
-    // printf("hello, world\n");
+// #include <stdio.h>
+// void printNamaste();
+// void printBonjour();
 
-    /*int number = 20;
-    char star = '*';
-^    printf("%c", star);*/
+// int main()
+// {
+//     char lang;
+//     printf("enter language: ");
+//     scanf("%c", &lang);
+//     if (lang == 'i')
+//     {
+//         printNamaste();
+//     }
+//     else
+//     {
+//         printBonjour();
+//     }
 
-    /*
+//     return 0;
+// }
 
-    float number = 2.55;
-    printf("%f", number);*/
-
-    /*int age;
-     printf("enter age");
-     scanf("%d", &age);
-     printf("age is:%d", age);*/
-
-    // int marks;
-    // printf("enter marks: ");
-    // scanf("%d", &marks);
-
-    // if (marks > 30)
-    // {
-    //     printf("pass");
-    // }
-    // else
-    // {
-    //     printf("fail");
-    // }
-
-    //
-    //
-
-    int n;
-    printf("enter n: ");
-    scanf("%d", &n);
-
-    int table = 0;
-    for (int i = 1; i <= 10; i++)
-    {
-        // if (i == 5)
-        // {
-        //     break;
-        // }
-        table = n * i;
-        printf("%d\n", table);
-    }
-    printf("end");
-
-    return 0;
-}
+// void printNamaste()
+// {
+//     printf("NAMASTE!");
+// }
+// void printBonjour()
+// {
+//     printf("BONJOUR!");
+// }
