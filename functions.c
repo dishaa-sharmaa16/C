@@ -274,4 +274,79 @@
 // {
 
 //     return (principle * rate * time) / 100;
+// }.
+
+// #include <stdio.h>
+// int sq(int a);
+// int main()
+// {
+//     int x;
+//     printf("enter number: ");
+//     scanf("%d", &x);
+//     sq(x);
+//     return 0;
+// }
+
+// int sq(int a)
+// {
+
+//     int square = a * a;
+//     printf("the square of number is: %d", square);
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int checkEvenOdd();
+// int main()
+// {
+//     int x;
+//     printf("enter number: ");
+//     scanf("%d", &x);
+//     checkEvenOdd(x);
+
+//     return 0;
+// }
+
+// int checkEvenOdd(int x)
+// {
+//     if (x % 2 == 0)
+//     {
+//         printf("the number is even");
+//     }
+//     else
+//     {
+//         printf("the number is odd");
+//     }
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int bigger();
+// int main()
+// {
+//     int a;
+//     int b;
+//     printf("enter a: ");
+//     scanf("%d", &a);
+//     printf("enter b: ");
+//     scanf("%d", &b);
+
+//     bigger(a, b);
+
+//     return 0;
+// }
+
+// int bigger(int a, int b)
+// {
+//     if (a > b)
+//     {
+//         printf("the greater number is %d", a);
+//     }
+//     else
+//     {
+//         printf("the greater number is %d", b);
+//     }
+
+//     return 0;
 // }

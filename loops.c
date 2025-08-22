@@ -196,5 +196,86 @@ int main()
     //         }
     //     }
     // }
+
+    int choice;
+
+    // do
+    // {
+    //     printf("----- Loop Testing Menu -----\n"
+    //            "1. Print multiplication table using for loop\n"
+    //            "2. Calculate factorial using while loop\n"
+    //            "3. Print Fibonacci series using while loop\n"
+    //            "4. Display a number pattern using nested for loop\n"
+    //            "5. Check if a number is prime using while loop\n"
+    //            "6. Exit\n"
+    //            "-----------------------------\n");
+    //     printf("enter your choice: ");
+    //     scanf("%d", &choice);
+    //     switch (choice)
+    //     {
+    //     case 1:
+    //     {
+    //         int num;
+    //         printf("enter number: ");
+    //         scanf("%d", &num);
+
+    //         for (int i = 1; i <= 10; i++)
+    //         {
+    //             int table = num * i;
+    //             printf("%d\n", table);
+    //         }
+    //         break;
+    //     }
+
+    //     case 2:
+    //         int num1;
+    //         printf("enter number: ");
+    //         scanf("%d", &num1);
+    //         int fact = 1;
+    //         for (int i = 1; i <= num1; i++)
+    //         {
+    //             fact = fact * i;
+    //         }
+    //         printf("factorial : %d\n", fact);
+    //         break;
+    //     case 3:
+    //         int n, a = 0, b = 1, next;
+    //         printf("enter number of terms: ");
+    //         scanf("%d", &n);
+    //         printf("Fibonacci Series: ");
+
+    //         for (int i = 0; i < n; i++)
+    //         {
+    //             if (i == 0)
+    //             {
+    //                 next = a;
+    //             }
+    //             else if (i == 1)
+    //             {
+    //                 next == b;
+    //             }
+    //             else
+    //             {
+    //                 next = a + b;
+    //                 a = b;
+    //                 b = next;
+    //             }
+    //             printf("%d \n", next);
+    //         }
+    //         break;
+    //     case 4:
+    //         /* code */
+    //         break;
+    //     case 5:
+    //         /* code */
+    //         break;
+    //     case 6:
+    //         printf("exit program");
+    //         break;
+
+    //     default:
+    //         break;
+    //     }
+    // } while (choice != 6);
     return 0;
 }

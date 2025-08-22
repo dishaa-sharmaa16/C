@@ -433,9 +433,9 @@ int main()
     //     printf("it is not a natural number");
     // }
 
-    int n;
-    printf("Enter n: ");
-    scanf("%d", &n);
+    // int n;
+    // printf("Enter n: ");
+    // scanf("%d", &n);
 
     // if (n >= 1 && n <= 9)
     // {
@@ -475,5 +475,258 @@ int main()
     //     printf("Greater than 9\n");
     // }
 
+    // int a;
+    // printf("enter number : ");
+    // scanf("%d", &a);
+
+    // if (a > 0)
+    // {
+    //     printf("number is positive.");
+    // }
+    // else if (a == 0)
+    // {
+    //     printf("number is zero");
+    // }
+    // else if (a < 0)
+    // {
+    //     printf("number is negative");
+    // }
+    // else
+    // {
+    //     printf("invalid input");
+    // }
+
+    // char x;
+    // printf("enter character: ");
+    // scanf("%c", &x);
+
+    // if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u' || x == 'A' || x == 'E' || x == 'I' || x == 'O' || x == 'U')
+    // {
+    //     printf("vowel");
+    // }
+    // else
+    // {
+    //     printf("consonant");
+    // }
+
+    //  int mark1, mark2, mark3;
+    // float avg;
+
+    // // Input
+    // printf("Enter marks for subject 1: ");
+    // scanf("%d", &mark1);
+    // printf("Enter marks for subject 2: ");
+    // scanf("%d", &mark2);
+    // printf("Enter marks for subject 3: ");
+    // scanf("%d", &mark3);
+
+    // // Calculate average
+    // avg = (mark1 + mark2 + mark3) / 3.0;
+
+    // // Grade Decision
+    // if (avg >= 90)
+    //     printf("Grade: A\n");
+    // else if (avg >= 80)
+    //     printf("Grade: B\n");
+    // else if (avg >= 70)
+    //     printf("Grade: C\n");
+    // else if (avg >= 60)
+    //     printf("Grade: D\n");
+    // else
+    //     printf("Grade: F\n");
+
+    // int a;
+    // int b;
+    // int c;
+
+    // printf("enter first number: ");
+    // scanf("%d", &a);
+    // printf("enter second number: ");
+    // scanf("%d", &b);
+    // printf("enter third number: ");
+    // scanf("%d", &c);
+
+    // if (a > b && a > c)
+    // {
+    //     printf("%d is greatest", a);
+    // }
+    // else if (b > a && b > c)
+    // {
+    //     printf("%d is greatest", b);
+    // }
+    // else
+    // {
+    //     printf("%d is greatest", c);
+    // }
+
+    // int a, b;
+    // char op;
+
+    // // Input numbers
+    // printf("Enter a: ");
+    // scanf("%d", &a);
+    // printf("Enter b: ");
+    // scanf("%d", &b);
+
+    // // Input operator
+    // printf("Enter operation '+' '-' '*' '/': ");
+    // scanf(" %c", &op); // Note the space before %c
+
+    // // Switch block
+    // switch (op)
+    // {
+    // case '+':
+    //     printf("Sum is %d\n", a + b);
+    //     break;
+    // case '-':
+    //     printf("Subtraction is %d\n", a - b);
+    //     break;
+    // case '*':
+    //     printf("Multiplication is %d\n", a * b);
+    //     break;
+    // case '/':
+    //     if (b != 0)
+    //         printf("Division is %d\n", a / b);
+    //     else
+    //         printf("Error: Division by zero is not allowed.\n");
+    //     break;
+    // default:
+    //     printf("Invalid operator.\n");
+    //     break;
+    // }
+
+    // int x;
+    // int y;
+    // printf("enter x: ");
+    // scanf("%d", &x);
+    // printf("enter y: ");
+    // scanf("%d", &y);
+
+    // int choice;
+    // do
+    // {
+    //     printf(" 1. Arithmetic Operators       (+, -, *, /, %%)\n"
+    //            " 2. Relational Operators       (==, !=, <, >, <=, >=)\n"
+    //            " 3. Logical Operators          (&&, ||, !)\n"
+    //            " 4. Bitwise Operators          (&, |, ^, ~, <<, >>)\n"
+    //            " 5. Assignment Operators       (=, +=, -=, *=, /=, %%=)\n"
+    //            " 6. Increment/Decrement        (a++, ++a, b--, --b)\n"
+    //            " 7. Conditional Operator       (a > b ? a : b)\n"
+    //            " 8. Sizeof Operator\n"
+    //            " 9. Exit\n");
+    //     printf("enter your choice(1-9): ");
+    //     scanf("%d", &choice);
+
+    //     switch (choice)
+    //     {
+    //     case 1:
+    //         char op;
+    //         printf("select operation(add-'+' , subs-'-', multi-'*', div-'/' ): ");
+    //         scanf(" %c", &op);
+    //         if (op == '+')
+    //         {
+    //             printf("sum is: %d\n ", x + y);
+    //         }
+    //         else if (op == '-')
+    //         {
+    //             printf("subs is: %d\n", x - y);
+    //         }
+    //         else if (op == '*')
+    //         {
+    //             printf("product is: %d\n", x * y);
+    //         }
+    //         else if (op == '/')
+    //         {
+    //             if (y != 0)
+    //             {
+    //                 printf("div is: %d\n", x / y);
+    //             }
+    //             else
+    //             {
+    //                 printf("Error: Division by zero!\n");
+    //             }
+    //         }
+    //         else
+    //         {
+    //             printf("invalid input");
+    //         }
+    //         break;
+    //     case 2:
+    //         if (x == y)
+    //         {
+    //             printf("%d equal to %d\n", x, y);
+    //         }
+    //         else if (x != y)
+    //         {
+    //             printf("%d not equal %d\n", x, y);
+    //             if (x < y)
+    //             {
+    //                 printf("%d less than %d\n", x, y);
+    //             }
+    //             else
+    //             {
+    //                 printf("%d more than %d\n", x, y);
+    //             }
+    //         }
+
+    //         else
+    //         {
+    //             printf("invalid input");
+    //         }
+    //         break;
+    //     case 3:
+    //         /* code */
+    //         break;
+    //     case 4:
+    //         /* code */
+    //         break;
+    //     case 5:
+    //         /* code */
+    //         break;
+    //     case 6:
+    //         /* code */
+    //         break;
+    //     case 7:
+    //         printf("Greater number is: %d\n", (x > y ? x : y));
+    //         break;
+    //     case 8:
+    //         printf("size of x is: %lu \n", sizeof(x));
+    //         printf("size of y is: %lu \n", sizeof(y));
+    //         break;
+    //     case 9:
+    //         printf("Exiting program.\n");
+    //         break;
+
+    //     default:
+    //         break;
+    //     }
+    // } while (choice != 9);
+
+    // int switchUsed;
+    // int bulbState;
+    // int bulbHot;
+
+    // printf("is the bulb on or not (1- on & 0 - off): ");
+    // scanf("%d", &bulbState);
+
+    // if (bulbState == 1)
+    // {
+    //     switchUsed = 1;
+    // }
+    // else
+    // {
+    //     printf("is the bulb hot?(1- yes & 0- no): ");
+    //     scanf("%d", &bulbHot);
+
+    //     if (bulbHot == 1)
+    //     {
+    //         switchUsed = 2;
+    //     }
+    //     else
+    //     {
+    //         switchUsed = 3;
+    //     }
+    // }
+    // printf("the switch is: %d", switchUsed);
     return 0;
 }

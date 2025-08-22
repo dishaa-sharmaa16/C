@@ -66,5 +66,29 @@ int main()
         printf("The character '%c' is NOT a digit.\n", ch);
     }*/
 
+    // int num;
+    // int n;
+
+    // while (num < fact)
+    // {
+    //     n++;
+    //     num *= n;
+    // }
+
+    // if (num == fact)
+    //     printf("The number is: %d\n", n);
+    // else
+    //     printf("No such number found for the given factorial.\n");
+
+    // int a;
+    // float f;
+    // char ch;
+    // double d;
+
+    // printf("size of int is: %lu\n", sizeof(a));
+    // printf("size of float is: %lu\n", sizeof(f));
+    // printf("size of char is: %lu\n", sizeof(ch));
+    // printf("size of double is: %lu\n", sizeof(d));
+
     return 0;
 }
